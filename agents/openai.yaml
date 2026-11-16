@@ -1,0 +1,13 @@
+interface:
+  display_name: Reader First · 顺着读懂
+  short_description: 按读者的理解顺序组织中英文，展开隐含关系，保留事实、条件与技术精度
+  default_prompt: 请用 $reader-first 按读者的理解顺序组织这次回答，保留必要细节，把难懂的压缩表达展开。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
